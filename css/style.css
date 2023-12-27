@@ -1,0 +1,95 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+.btn-outline-primary
+{
+  --bs-btn-border-color: black;
+  --bs-btn-color: black;
+  --bs-btn-hover-bg: black;
+  --bs-btn-hover-border-color: black;
+}
+.btn-primary {
+  --bs-btn-bg: black;
+  --bs-btn-border-color: black;
+}
+.border-primary {
+  --bs-border-opacity: 1;
+  border-color:black!important;;
+}
+.text-bg-primary
+{
+  background-color: black!important;
+}
+p,h2{
+  text-align: center;
+}
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+.btn-primary {
+  --bs-btn-bg: white;
+  --bs-btn-border-color: white;
+  --bs-btn-color: black;
+  --bs-btn-hover-bg:#d3d4d5;
+  --bs-btn-hover-border-color:#d3d4d5;
+  --bs-btn-hover-color: black;
+}
+.btn-outline-secondary {
+  --bs-btn-color: white;
+  --bs-btn-border-color:white;
+  --bs-btn-hover-color: black;
+  --bs-btn-hover-bg: white;
+}
+.img-fluid {
+  max-width: 340px;
+  height: 600px;
+}
+.py-5
+{
+  padding-bottom: 0% !important;
+}
+#features
+{
+  padding-bottom: 50px;
+}
+.chblack
+{
+  --bs-btn-bg: black; 
+     --bs-btn-border-color:black; 
+     --bs-btn-color: white;
+}
+.testimonial{
+  height: 450px;
+  background-color: #F8F9FA;
+  padding-top: 80px;
+  margin-top: 60px ;
+  margin-bottom: 60px;
+}
+.mb-4 {
+  margin-bottom: 0px !important;
+  margin-top: 48px;
+}
