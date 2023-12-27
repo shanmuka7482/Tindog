@@ -57,6 +57,7 @@ img {
   --bs-btn-hover-bg:#d3d4d5;
   --bs-btn-hover-border-color:#d3d4d5;
   --bs-btn-hover-color: black;
+  --bs-btn-active-bg: red;
 }
 .btn-outline-secondary {
   --bs-btn-color: white;
