@@ -7,6 +7,10 @@ Tindog is a playful and engaging single-page website designed for dog owners to 
 ## Installation
 1. Clone the repository:
    ```
-   Copy code
-    git clone https://github.com/yourusername/tindog.git
+      git clone https://github.com/yourusername/tindog.git
    ```
+2. Navigate to the project directory:
+   ```
+      cd tindog
+   ```
+3. Open index.html in your preferred web browser.
